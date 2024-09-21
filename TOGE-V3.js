@@ -239,7 +239,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: 'toge012345',
+            author: 'papaigwe',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -4413,7 +4413,7 @@ case 'hidetag': {
         break;  
 			    
 case 'runtime': {
-            	let lowq = `*The Bot Has Been Online For:*\n🎉 *${runtime(process.uptime())}*`
+            	let lowq = `*The Bot Has Been Online mon type  For:*\n🎉 *${runtime(process.uptime())}*`
                 reply(lowq)
             	}
             break;
@@ -4886,7 +4886,7 @@ case 'poker': {
         let resultMessage = `\t\uD83C\uDCCF *Poker Prestige* \uD83C\uDCCF\n`;
         resultMessage += `\t\t---------------------------------\n`;
         resultMessage += `*@${m.sender.split("@")[0]}*'s Hand: ${userHand.join(', ')}\n`;
-        resultMessage += `*TOGE-MD-V3*'s Hand: ${mariaHand[0]}, \n`;
+        resultMessage += `*IGWE-MD-2*'s Hand: ${mariaHand[0]}, \n`;
         resultMessage += `\t\t---------------------------------\n`;
 
         if (userScore > mariaScore) {
