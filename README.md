@@ -2,7 +2,7 @@
 </div>
   <a href="https://sessi-id-by-igwe-tech.onrender.com/">
         <p align="center">
-   <img alt="papaigwe" height="300" src="https://i.imgur.com/zWW3hlV.jpeg">
+   <img alt="papaigwe" height="300" src="https://i.imgur.com/p2XPMc7.jpeg">
               </p>
   </a>
 </p>
