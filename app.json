@@ -1,8 +1,8 @@
 {
-    "name": "TOGE-MD-V3",
+    "name": "IGWE-MD-2",
     "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
-    "repository": "https://github.com/toge012345/TOGE-MD-V3",
-    "logo": "https://telegra.ph/file/ba64c8bc27477844bfc75.jpg",
+    "repository": "https://github.com/papaigwe/IGWE-MD-2",
+    "logo": "https://i.imgur.com/3PGHA2l.jpeg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
       "env": {
        "OWNER_NAME": {
@@ -12,7 +12,7 @@
       "description": "Put your number here"
     },
          "BOTNAME": {
-      "description": "Name of your bot. Ex: - TOGE-MD-V3"
+      "description": "Name of your bot. Ex: - IGWE-MD-2"
     },
      "PREFIX": {
       "description": "set your bot prefix here ex:- '!' "
@@ -21,7 +21,7 @@
       "description": "set your bot author name here"
     },
     "STICKER": {
-      "description": "set your bot sticker package name ex:- TOGE INUMAKI"
+      "description": "set your bot sticker package name ex:- PAPA IGWE"
     },     
      "PM_BLOCKER": {
       "description": "type True for enable Pm blocker"
