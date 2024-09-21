@@ -1,27 +1,27 @@
 ## 🌟 `Bot Intro and Features`
 </div>
-  <a href="https://session-web.onrender.com/">
+  <a href="https://sessi-id-by-igwe-tech.onrender.com/">
         <p align="center">
-   <img alt="toge01245" height="300" src="https://telegra.ph/file/83f41a017edaf21646b3f.jpg">
+   <img alt="papaigwe" height="300" src="https://i.imgur.com/zWW3hlV.jpeg">
               </p>
   </a>
 </p>
    
 <p align="center">
 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo" target="_blank">
+  <a aria-label="Join our chats" href="https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 
   
 <p align="center">
 
-  <a aria-label="Tutorial" href="https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z" target="_blank">
+  <a aria-label="Tutorial" href="https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j" target="_blank">
     <img alt="youtube" src="https://img.shields.io/badge/tutorial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   
 <div align="center">
 
-**TOGE-MD-V3 is a multi-device bot that can help you with different things on WhatsApp developed by [TOGE INUMAKI](https://github.com/toge012345)**
+**IGWE-MD-2 is a multi-device bot that can help you with different things on WhatsApp developed by [IGWE THE KING](https://github.com/papaigwe)**
 
 </div>
 
@@ -29,7 +29,7 @@
 
 1. Must Fork This Repo Before Deployment !
    <br> 
-<a href="https://github.com/toge012345/TOGE-MD-V3/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Papaigwe/IGWE-MD-2/fork"><img title="FORK REPO" src="https://img.shields.io/badge/FORK REPO-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
 
@@ -37,7 +37,7 @@
 
 2. Upload the creds.json that you received to the session folder.
    <br>
-<a href='https://session-web.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://sessi-id-by-igwe-tech.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ### DEPLOY TO WORKFLOWS
 
@@ -93,7 +93,7 @@ jobs:
    <br>
 2. Now Deploy
     <br>
-<a href='https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Ftoge012345%2FTOGE-V3-AI%3Ftab%3Dreadme-ov-file&template=https%3A%2F%2Fgithub.com%2Ftoge012345%2FTOGE-V3-AI%3Ftab%3Dreadme-ov-file' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Ftoge012345%2FTOGE-V3-AI%3Ftab%3Dreadme-ov-file&template=https%3A%2F%2Fgithub.com%2Fpapaigwe%2FIGWE-MD-2%3Ftab%3Dreadme-ov-file' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
 #### DEPLOY ON RAILWAY
 
@@ -122,7 +122,7 @@ jobs:
    <br>
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/toge012345/TOGE-MD-V3' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
+<a href='https://replit.com/github/toge012345/IGWE-MD-2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-IMPORT-black?style=for-the-badge&logo=replit'/></a>
 ##
 ### Termux/Ssh/Ubuntu
 
@@ -143,8 +143,8 @@ pkg install ffmpeg -y
 pkg install wget
 pkg install imagemagick -y
 npm install ytdl-core@latest
-git clone https://github.com/toge012345/TOGE-V3-AI
-cd TOGE-V3-AI
+git clone https://github.com/papaigwe/IGWE-MD-2
+cd IGWE-MD-2
 yarn install
 npm start
 ```
@@ -153,7 +153,7 @@ npm start
   ***- Using download method to local storage.***
   
   Step: 1
-    ***Download [`TOGE-V3-AI`](https://github.com/toge012345/TOGE-V3-AI/archive/refs/heads/Master.zip) repository first.***
+    ***Download [`IGWE-MD-2`](https://github.com/papaigwe/IGWE-MD-2/archive/refs/heads/Master.zip) repository first.***
 
   Step: 2
     ***Extract the downloaded `.zip` file.***
@@ -166,7 +166,7 @@ npm start
   ***- For Example:***
   
   ```
-  cd /sdcard/download/TOGE-V3-AI
+  cd /sdcard/download/IGWE-MD-2
   ```
 
   Step: 5
@@ -202,9 +202,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
  ## `Main Dev` 
-<a href="https://github.com/toge012345"><img src="https://github.com/toge012345.png" width="250" height="250" alt="toge012345"/></a>
+<a href="https://github.com/papaigwe"><img src="https://i.imgur.com/onulEbP.jpeg" width="250" height="250" alt="PAPA IGWE"/></a>
   
-`TOGE-MD-V3.`
+`IGWE TECH INC.`
 
 ##
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
@@ -221,7 +221,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
 - Have A Good Day Ahead
 
-## THANKS USING TOGE-V3-AI
+## THANKS USING IGWE-MD-2
 <img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
 
 
