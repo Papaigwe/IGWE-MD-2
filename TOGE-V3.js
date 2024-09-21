@@ -32,7 +32,7 @@ const { download } = require('aptoide-scraper');
 const { fetchBuffer, buffergif } = require("./lib/lib/myfunc2")
 
 /////log
- global.modnumber = '24105114159' 
+ global.modnumber = '24160338758' 
 //Media/database
 let ntilinkall =JSON.parse(fs.readFileSync('./lib/database/antilink.json'));
 // let autoblck =JSON.parse(fs.readFileSync('./lib/database/autoblock.json'));
@@ -281,7 +281,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`𝚑𝚒 𝙸 𝚊𝚖 𝚃𝙾𝙶𝙴-𝙼𝙳-𝚅𝟹 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 𝚃𝙾𝙶𝙴 𝙸𝙽𝚄𝙼𝙰𝙺𝙸 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`𝚂𝚊𝚕𝚞𝚝 𝚓𝚎 𝚜𝚞𝚒𝚜 𝙸𝙶𝚆𝙴-𝙼𝙳 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 𝙿𝙰𝙿𝙰 𝙸𝙶𝚆𝙴 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -521,12 +521,12 @@ break;
     [
         'https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png', // Image URL
         '', // Title
-        `TOGE-MD-V3 YOUTUBE CHANNEL `, // Body message
+        `IGWE-MD-2 YOUTUBE CHANNEL `, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://youtube.com/@kenzo3146', // Command (URL in this case)
+        'https://youtube.com/@papaigwe', // Command (URL in this case)
         'cta_url', // Button type
-        'https://youtube.com/@kenzo3146' // URL (used in image generation)
+        'https://youtube.com/@papaigwe' // URL (used in image generation)
     ], 
     
     
@@ -1074,9 +1074,9 @@ break;
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: '𝚃𝙾𝙶𝙴-𝙼𝙳-𝚅𝟹 𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃',
+                                title: 'IGWE-𝙼𝙳-2 𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃',
                                 body: `Sent ${i.length} Group`,
-                               thumbnailUrl: 'https://telegra.ph/file/2617e9472f08cb3d3c5e2.jpg',
+                               thumbnailUrl: 'https://i.imgur.com/BcIbI2O.jpeg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1336,12 +1336,12 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            `𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:- 𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑\n\n𝐆𝐑𝐎𝐔𝐏 𝐍𝐀𝐌𝐄:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            `𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:- IGWE-𝐌𝐃-2\n\n𝐆𝐑𝐎𝐔𝐏 𝐍𝐀𝐌𝐄:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
         }
-        await Maria.sendMessage(m.chat, { video: { url: `https://telegra.ph/file/942c4dd39bd40933222d8.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
+        await Maria.sendMessage(m.chat, { video: { url: `https://i.imgur.com/BcIbI2O.jpeg` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
         break;
         
             case 'revoke':
@@ -1358,22 +1358,22 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/toge012345/TOGE-MD-V3");
+let repoInfo = await axios.get("https://api.github.com/repos/papaigwe/IGWE-MD-2");
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑*\n
-  *🌟 Creator:* 𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈\n
+   const scritxt = `*IGWE-𝐌𝐃-2*\n
+  *🌟 Creator:* 🎃🐝  𝔭𝔸ⓟÃ 𝐈𝕘𝕎𝒆  🍪💋𓆩\n
   *🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
   *⭐ Total Stars:* ${repo.stargazers_count}\n
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
  
-©️ 𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑 
+©️ IGWE-𝐌𝐃-2 
 *❝ Dont forget to give a Star ⭐ to the repo.*`
 
-        Maria.sendMessage(from, { video: { url: 'https://telegra.ph/file/942c4dd39bd40933222d8.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
+        Maria.sendMessage(from, { video: { url: 'https://i.imgur.com/BcIbI2O.jpeg' }, gifPlayback: true, caption: scritxt }, { quoted: m })
 }
         break;
         
@@ -1390,7 +1390,7 @@ case 's': {
         try {
             let media = await quoted.download();
             let encmedia = await Maria.sendImageAsSticker(m.chat, media, m, {
-                author: global.stickername || '𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈'
+                author: global.stickername || '๑۞๑,¸¸,ø¤º°`°๑۩ קÃρａ ιⒼ山𝓔 ๑۩ ,¸¸,ø¤º°`°๑۞๑𓆩'
             });
             await fs.unlinkSync(encmedia);
         } catch (error) {
@@ -1403,7 +1403,7 @@ case 's': {
         try {
             let media = await quoted.download();
             let encmedia = await Maria.sendVideoAsSticker(m.chat, media, m, {
-                packname: global.stickername || '𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑',
+                packname: global.stickername || '๑۞๑,¸¸,ø¤º°`°๑۩ קÃρａ ιⒼ山𝓔 ๑۩ ,¸¸,ø¤º°`°๑۞๑',
             });
             await fs.unlinkSync(encmedia);
         } catch (error) {
@@ -1455,7 +1455,7 @@ reply(`Photo/Video?`)
 break;
             case 'toimage':
             case 'toimg': {
-                if (!/webp/.test(mime)) return reply(`🍭𝑹𝒆𝒑𝒍𝒚 𝒔𝒕𝒊𝒄𝒌𝒆𝒓 𝒘𝒊𝒕𝒉 𝒄𝒂𝒑𝒕𝒊𝒐𝒏 ${prefix + command} *TOGE-MD-V3*`)
+                if (!/webp/.test(mime)) return reply(`🍭𝑹𝒆𝒑𝒍𝒚 𝒔𝒕𝒊𝒄𝒌𝒆𝒓 𝒘𝒊𝒕𝒉 𝒄𝒂𝒑𝒕𝒊𝒐𝒏 ${prefix + command} *IGWE-MD-2*`)
                 reply(mess.wait)
                 let media = await Maria.downloadAndSaveMediaMessage(qmsg)
                 let ran = await getRandom('.png')
@@ -1475,7 +1475,7 @@ break;
             break;
             case 'tomp4':
             case 'tovideo': {
-                if (!/webp/.test(mime)) return reply(`🍭𝑹𝒆𝒑𝒍𝒚 𝒔𝒕𝒊𝒄𝒌𝒆𝒓 𝒘𝒊𝒕𝒉 𝒄𝒂𝒑𝒕𝒊𝒐𝒏 ${prefix + command} *TOGE-MD-V3*`)
+                if (!/webp/.test(mime)) return reply(`🍭𝑹𝒆𝒑𝒍𝒚 𝒔𝒕𝒊𝒄𝒌𝒆𝒓 𝒘𝒊𝒕𝒉 𝒄𝒂𝒑𝒕𝒊𝒐𝒏 ${prefix + command} *IGWE-MD-2*`)
                 reply(mess.wait)
                 let media = await Maria.downloadAndSaveMediaMessage(qmsg)
                 let webpToMp4 = await webp2mp4File(media)
@@ -1492,7 +1492,7 @@ break;
             }
             break;
             case 'checkdeath':
-             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} *TOGE-MD-V3*`)
+             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} *IGWE-MD-2*`)
               predea = await axios.get(`https://api.agify.io/?name=${q}`)
               reply(`Name : ${predea.data.name}\n*Dead At Age :* ${predea.data.age} Year.\n\n_Quick, Quick, Repent Bro, Because No One Knows About Death_`)
               break;
@@ -1661,7 +1661,7 @@ break;
 
 case 'play':  case 'song': {
 Maria.sendMessage(from, { react: { text: "🙈", key: m.key }}) 
-if (!text) return reply(`🍭𝑷𝒍𝒆𝒂𝒔𝒆 𝒎𝒆𝒏𝒕𝒊𝒐𝒏 𝒂 𝒔𝒐𝒏𝒈 𝒏𝒂𝒎𝒆 𝒅𝒂𝒓𝒍𝒊𝒏𝒈 \n\n 𝑬𝒙𝒂𝒎𝒑𝒍𝒆: ${prefix + command}  *TIAKOLA T.I.A*`)
+if (!text) return reply(`🍭𝑷𝒍𝒆𝒂𝒔𝒆 𝒎𝒆𝒏𝒕𝒊𝒐𝒏 𝒂 𝒔𝒐𝒏𝒈 𝒏𝒂𝒎𝒆 𝒅𝒂𝒓𝒍𝒊𝒏𝒈 \n\n 𝑬𝒙𝒂𝒎𝒑𝒍𝒆: ${prefix + command}  *LE NIANG BOY*`)
 const Ayushplaymp3 = require('./lib/lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
@@ -1744,7 +1744,7 @@ case 'chatgpt':
    /////////////////////////////////////_//////////////
             case "rules":
       
-        const helptxt = `📍𝗪𝗔𝗥𝗡📍\n\n\n*>>>* *use* *${prefix}support to get the Official group link in your dm.*\n\n*--->* *If you want to add TOGE-MD-V3 in your group the contact the owner by* *${prefix}owner/${prefix}mods* \n\n*--->* *Dont use wrong command, use the command given in the* *${prefix}help* *list* \n\n* *Dont spam the bot with commands if TOGE-MD-V3 is not responding, its means the maybe owner is offline or facing internet issue.* \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ 𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜* `
+        const helptxt = `📍𝗪𝗔𝗥𝗡📍\n\n\n*>>>* *use* *${prefix}support to get the Official group link in your dm.*\n\n*--->* *If you want to add IGWE-MD-2 in your group the contact the owner by* *${prefix}owner/${prefix}mods* \n\n*--->* *Dont use wrong command, use the command given in the* *${prefix}help* *list* \n\n* *Dont spam the bot with commands if IGWE-MD-2 is not responding, its means the maybe owner is offline or facing internet issue.* \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ IGWE-MD-2 𝐈𝐧𝐜* `
 
         Maria.sendMessage(from, { video: { url: 'https://telegra.ph/file/942c4dd39bd40933222d8.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1752,9 +1752,9 @@ case 'chatgpt':
       case 'toge':
        
         
-        let txxt = `𝚑𝚎𝚕𝚕𝚘 ${pushname} 𝙸 𝚊𝚖 𝚃𝙾𝙶𝙴-𝙼𝙳-𝚅𝟹 𝚊 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 𝚃𝙾𝙶𝙴 𝙸𝙽𝚄𝙼𝙰𝙺𝙸 𝚑𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚋𝚊𝚋𝚢 ?`
+        let txxt = `𝚑𝚎𝚕𝚕𝚘 ${pushname} 𝙸 𝚊𝚖 IGWE-MD-2 𝚊 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 PAPA IGWE 𝚑𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚋𝚊𝚋𝚢 ?`
 
-        Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/8732bb1721e4785718a02.jpg" }, caption: txxt}, { quoted: m });
+        Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/BcIbI2O.jpeg" }, caption: txxt}, { quoted: m });
         
         break;
       case "support":
@@ -1768,9 +1768,9 @@ case 'chatgpt':
 
       case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let pifx = `✦ ───『 𝙸𝚗𝚏𝚘 𝚍𝚎𝚟 』─── ⚝\n\n\n◈𝐆𝐈𝐓𝐇𝐔𝐁:https://github.com/toge012345\n\n◈𝐘𝐎𝐔𝐓𝐔𝐁𝐄:https://youtube.com/@kenzo3146?si=FQ1JoEiF0T7ve-6W\n\n◈𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏:https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo\n\n◈𝐆𝐑𝐎𝐔𝐏 𝐅𝐎𝐑 𝐍𝐔𝐌𝐁𝐄𝐑𝐒:https://chat.whatsapp.com/JoSaOEx3ill1JE0a19ATJr\n\n\n𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨`
+        let pifx = `✦ ───『 𝙸𝚗𝚏𝚘 𝚍𝚎𝚟 』─── ⚝\n\n\n◈𝐆𝐈𝐓𝐇𝐔𝐁:https://github.com/papaigwe\n\n\◈𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏:https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo\n\n◈𝐆𝐑𝐎𝐔𝐏 𝐅𝐎𝐑 𝐍𝐔𝐌𝐁𝐄𝐑𝐒:https://chat.whatsapp.com/JoSaOEx3ill1JE0a19ATJr\n\n\nIGWE 𝐈𝐧𝐜 ✨`
 
-Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/182542601d9dd6ae8bced.jpg" }, caption: pifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/BcIbI2O.jpeg" }, caption: pifx, gifPlayback: true }, { quoted: m });
         break;
 
 
@@ -1789,7 +1789,7 @@ Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/182542601d9dd
 
 
 case 'wanumber': case 'nowa': case 'searchnumber':{
-           	if (!text) return reply(`📵🔢 Enter a number ending with 'x'\n\nExample: ${prefix + command} 241051141xx`)
+           	if (!text) return reply(`📵🔢 Enter a number ending with 'x'\n\nExample: ${prefix + command} 2416033xx`)
 var inputnumber = text.split(" ")[0]
         
         reply(`📱🔍 Exploring for WhatsApp accounts within the range...`)
@@ -2201,7 +2201,7 @@ break;
                          
                            
   case 'menu': case 'help': case 'bot': 
-      const txt = `┏━⍟「 𝗧𝗢𝗚𝗘-𝗠𝗗-𝗩𝟯 」⊛
+      const txt = `┏━⍟「 𝐈𝐆𝐖𝐄-𝐌𝐃-𝟐 」⊛
 ┃✦» *Hi 👋*
 ┃✦» *${m.pushName}*
 ┃✦» *${Ayushytimewisher}*
@@ -2220,12 +2220,12 @@ break;
 ┗━━━━━━━━━━━━━━━⊛
 
 > ☎️ *Cᴏɴᴛᴀᴄᴛ :* https://wa.me/${ownernumber}?text=hello.owner
-> 💻 *Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :* https://github.com/toge012345/TOGE-V3-AI
-> 💨 *YᴏᴜTᴜʙᴇ :* https://youtube.com/@kenzo3146
-> 🔮 *Public Group :* https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo
+> 💻 *Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :* https://github.com/papaigwe/IGWE-MD-2
+> 💨 *YᴏᴜTᴜʙᴇ :* https://youtube.com/@papaigwe
+> 🔮 *Public Group :* https://chat.whatsapp.com/KRqmK7MU5OZ8pcKoeo4CVt
 
 ┏━⍟ *GENERAL* ⍟
-┃✺ ${prefix}toge
+┃✺ ${prefix}igwe
 ┃✺ ${prefix}dev
 ┃✺ ${prefix}info
 ┃✺ ${prefix}newfeatures 
@@ -2430,7 +2430,7 @@ break;
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "PAPA IGWE",
                   serverMessageId: 143
                 }
                 }
@@ -2460,18 +2460,18 @@ case 'description': {
     const randomMessage = randomMessages[Math.floor(Math.random() * randomMessages.length)];
 
     const styledDesc = `
-💨 *TOGE-MD-V3* 💨
+💨 *IGWE-MD-2* 💨
 
 🍥 *GROUP:* ${subject}
 
 🔮 *Description:*
 ${desc}\n
 ${randomMessage}\n
-✨ *© 2024* 𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨ ✨
+✨ *© 2024* IGWE_TECH 𝐈𝐧𝐜 ✨ ✨
 `;
 
    
-    const imageUrl = 'https://telegra.ph/file/055d845df9c966d7240ab.jpg';
+    const imageUrl = 'https://i.imgur.com/BcIbI2O.jpeg';
     
     await Maria.sendMessage(m.chat, {
         image: { url: imageUrl },
@@ -2650,11 +2650,11 @@ let gmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -2665,7 +2665,7 @@ let gmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "PAPA IGWE",
                   serverMessageId: 143
                 }
                 }
@@ -2723,11 +2723,11 @@ let emsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2739,7 +2739,7 @@ let emsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "PAPA IGWE",
                   serverMessageId: 143
                 }
                 }
@@ -2794,11 +2794,11 @@ await Maria.relayMessage(emsg.key.remoteJid, emsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2810,7 +2810,7 @@ await Maria.relayMessage(emsg.key.remoteJid, emsg.message, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -2880,11 +2880,11 @@ let owmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2896,7 +2896,7 @@ let owmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -2973,11 +2973,11 @@ await Maria.relayMessage(owmsg.key.remoteJid, owmsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2989,7 +2989,7 @@ await Maria.relayMessage(owmsg.key.remoteJid, owmsg.message, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3062,11 +3062,11 @@ let funmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -3078,7 +3078,7 @@ let funmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3141,11 +3141,11 @@ let dowmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -3157,7 +3157,7 @@ let dowmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3213,11 +3213,11 @@ let wallmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3228,7 +3228,7 @@ let wallmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3294,11 +3294,11 @@ await Maria.relayMessage(wallmsg.key.remoteJid, wallmsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3309,7 +3309,7 @@ contextInfo: {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3384,11 +3384,11 @@ await Maria.relayMessage(snamsg.key.remoteJid,  snamsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3399,7 +3399,7 @@ await Maria.relayMessage(snamsg.key.remoteJid,  snamsg.message, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3460,11 +3460,11 @@ let gamemsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 \",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗢𝗨𝗧𝗨𝗕𝗘 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3475,7 +3475,7 @@ let gamemsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3545,11 +3545,11 @@ let msg = generateWAMessageFromContent(from, {
    },
                  {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗧𝗨𝗧𝗢𝗥𝗜𝗔𝗟\",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗧𝗨𝗧𝗢𝗥𝗜𝗔𝗟\",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               },          
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣\",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣\",\"url\":\"https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j\",\"merchant_url\":\"https://www.google.com\"}"
               }                      
            ],
           }),
@@ -3559,7 +3559,7 @@ let msg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3576,7 +3576,7 @@ break
 
 
 case 'list': case 'listmenu': {
-  const alivem = ` ┏━⍟「 𝗧𝗢𝗚𝗘-𝗠𝗗-𝗩𝟯 」⊛
+  const alivem = ` ┏━⍟「 𝐈𝐆𝐖𝐄-𝐌𝐃-𝟐 」⊛
 ┃✦» *Hi 👋*
 ┃✦» *${m.pushName}*
 ┃✦» *${Ayushytimewisher}*
@@ -3595,9 +3595,9 @@ case 'list': case 'listmenu': {
 ┗━━━━━━━━━━━━━━━⊛
 
 > ☎️ *Cᴏɴᴛᴀᴄᴛ :* https://wa.me/${ownernumber}?text=hello.owner
-> 💻 *Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :* https://github.com/toge012345/TOGE-V3-AI
-> 💨 *YᴏᴜTᴜʙᴇ :* https://youtube.com/@kenzo3146
-> 🔮 *Public Group :* https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo
+> 💻 *Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :* https://github.com/papaigwe/IGWE-MD-2
+> 💨 *YᴏᴜTᴜʙᴇ :* https://youtube.com/@igwe
+> 🔮 *Public Group :* https://chat.whatsapp.com/KRqmK7MU5OZ8pcKoeo4CVt
 
 🌟 *_Please select the menu buttons here._*`
 let liistmsg = generateWAMessageFromContent(from, {
@@ -3674,7 +3674,7 @@ let liistmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣\",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣\",\"url\":\"https://chat.whatsapp.com/KRqmK7MU5OZ8pcKoeo4CVt\",\"merchant_url\":\"https://www.google.com\"}"
               }                      
            ],
           }),
@@ -3684,7 +3684,7 @@ let liistmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -3737,7 +3737,7 @@ case 'profile':
     try {
         pfp = await Maria.profilePictureUrl(m.sender, 'image');
     } catch (e) {
-        pfp = 'https://telegra.ph/file/5c831c160ad93ad5c1bc7.jpg';
+        pfp = 'https://i.imgur.com/BcIbI2O.jpeg';
     }
 
     const profilexx = `*「🎀Profile Info🎀」*\n\n🏮 *Username* : ${pushname}\n🎗️ *About* : ${bioo}\n👑 *Admin* : ${adn}\n`;
@@ -4185,7 +4185,7 @@ case 'doraemon': {
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...mediaData,
-              title: 'Check out this Doraemon wallpaper! 🤖✨\n\n© 𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑.',
+              title: 'Check out this Doraemon wallpaper! 🤖✨\n\n© IGW𝐄-𝐌𝐃-2.',
               subtitle: themeemoji,
               hasMediaAttachment: true
             }),
@@ -4244,7 +4244,7 @@ case 'pokemon': {
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...mediaData,
-              title: 'Here is a Pokemon wallpaper for you! ⚡🔥\n\n© 𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑.',
+              title: 'Here is a Pokemon wallpaper for you! ⚡🔥\n\n© IGW𝐄-𝐌𝐃-2.',
               subtitle: themeemoji,
               hasMediaAttachment: true
             }),
@@ -4304,7 +4304,7 @@ case 'zero-two': {
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...mediaData,
-              title: 'Enjoy this Zero-Two wallpaper! ❤️🖤\n\n© 𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑.',
+              title: 'Enjoy this Zero-Two wallpaper! ❤️🖤\n\n© IGW𝐄-𝐌𝐃-2.',
               subtitle: themeemoji,
               hasMediaAttachment: true
             }),
@@ -4470,7 +4470,7 @@ case 'instagram': case 'ig': case 'igvideo': case 'igimage': case 'igvid': case 
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -4514,7 +4514,7 @@ return await Maria.relayMessage(m.chat, msgs.message, {})
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -4613,7 +4613,7 @@ case 'react': {
 
 
 case 'git': case 'gitclone':
-if (!text) return reply(`🧩Where is the link?\nExample :\n${prefix}${command} https://github.com/toge012345/TOGE-V3-AI `)
+if (!text) return reply(`🧩Where is the link?\nExample :\n${prefix}${command} https://github.com/papaigwe/IGWE-MD-2 `)
 if (!isUrl(text) && !text.includes('github.com')) return reply(`Link invalid!!`)
     let repo = text.split('/');
     let url = `https://api.github.com/repos/${repo[3]}/${repo[4]}/zipball`
@@ -4708,7 +4708,7 @@ if (!m.isGroup) return replay(mess.grouponly)
             let [poll, opt] = text.split("|")
             if (text.split("|") < 2)
                 return await reply(
-                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|togev3,toge,Owner...`
+                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|igwemd2,igwe,Owner...`
                 )
             let options = []
             for (let i of opt.split(',')) {
@@ -4758,8 +4758,8 @@ case 'ping':
         key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
         message: {
             contactMessage: {
-                displayName: '𝐓𝐎𝐆𝐄-𝐀𝐈 💨',
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:TOGE-MD-V3 📱\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:owner number\nEND:VCARD`
+                displayName: 'IGW𝐄-2💨',
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:IGWE-MD-2 📱\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:owner number\nEND:VCARD`
             }
         }
     };
@@ -4791,9 +4791,9 @@ case 'ping':
   case 'mods':
 case 'developer':
 case 'dev':
-    const devmod = `𝚑𝚒 𝚖𝚢 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝚒𝚜 𝚃𝙾𝙶𝙴 𝙸𝙽𝚄𝙼𝙰𝙺𝙸 𝚑𝚎𝚛𝚎 𝚊𝚛𝚎 𝚝𝚑𝚎𝚒𝚛 𝚗𝚞𝚖𝚋𝚎𝚛𝚜 @24105114159`;
+    const devmod = `𝚑𝚒 𝚖𝚢 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝚒𝚜 PAPA IGWE 𝚑𝚎𝚛𝚎 𝚊𝚛𝚎 𝚝𝚑𝚎𝚒𝚛 𝚗𝚞𝚖𝚋𝚎𝚛𝚜 @24160338758`;
 
-    Maria.sendMessage(m.chat, { text: devmod, mentions: ["24105114159@s.whatsapp.net", "24105114159@s.whatsapp.net", "24105114159@s.whatsapp.net","24105114159@s.whatsapp.net"] }, { quoted: m });
+    Maria.sendMessage(m.chat, { text: devmod, mentions: ["24160338758@s.whatsapp.net", "24160338758@s.whatsapp.net", "24160338758@s.whatsapp.net","24160338758@s.whatsapp.net"] }, { quoted: m });
     break;
 
 
@@ -4842,11 +4842,11 @@ case 'dice': {
         let resultMessage;
 
         if (playerNumber > mariaNumber) {
-            resultMessage = `🎲 You chose ${playerNumber}! TOGE-MD-V3 rolled a ${mariaNumber}. 🏆 You win! 🎉`;
+            resultMessage = `🎲 You chose ${playerNumber}! IGWE-MD-2 rolled a ${mariaNumber}. 🏆 You win! 🎉`;
         } else if (playerNumber < mariaNumber) {
-            resultMessage = `🎲 You chose ${playerNumber}! TOGE-MD-V3 rolled a ${mariaNumber}. 😞 You lose! 💔`;
+            resultMessage = `🎲 You chose ${playerNumber}! IGWE-MD-2 rolled a ${mariaNumber}. 😞 You lose! 💔`;
         } else {
-            resultMessage = `🎲 You chose ${playerNumber}! TOGE-MD-V3 rolled a ${mariaNumber}. 🤝 It's a tie! 😅`;
+            resultMessage = `🎲 You chose ${playerNumber}! IGWE-MD-2 rolled a ${mariaNumber}. 🤝 It's a tie! 😅`;
         }
 
         caption = `🎲 *Dice Roll Game* 🎲\n`;
@@ -5230,7 +5230,7 @@ case 'chat':
         
 case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let ifx = `❁ ════ ❃•💙 *TOGE-MD-V3* 💙•❃ ════ ❁
+        let ifx = `❁ ════ ❃•💙 *IGWE-MD-2* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -5238,12 +5238,12 @@ case "info":
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:-_* https://github.com/toge012345/TOGE-MD-V3
+*_LINK:-_* https://github.com/papaigwe/IGWE-MD-2
 
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing ${prefix}owner or ${prefix}mods`
 
-Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/5c831c160ad93ad5c1bc7.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/BcIbI2O.jpeg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break;
 
 
@@ -5253,7 +5253,7 @@ Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/5c831c160ad93
         let tifx = `*𝚃𝙴𝚁𝙼𝚜 𝙰𝙽𝙳 𝙲𝙾𝙽𝙳𝙸𝚃𝙸𝙾𝙽*\n\n
 ⍟ *────────────────* ⍟ 
 
-📝 Note: Beware of fake TOGE-MD-V3 bots! People may falsely claim to represent TOGE-MD-V3. Please exercise caution.
+📝 Note: Beware of fake IGWE-MD-2 bots! People may falsely claim to represent IGWE-MD-2. Please exercise caution.
 
 _Whatsapp Bots have become increasingly popular, but with that comes the risk of encountering fake accounts. Stay vigilant._
 
@@ -5270,10 +5270,10 @@ _We will update the bot's terms and conditions periodically, so it's your respon
 _If you have any questions regarding our terms, please reach out to us._
 _For everything else, use common sense._
 
-*FUTURE IS NOW🚀~TOGE-MD-V3*
+*FUTURE IS NOW🚀~IGWE-MD-2*
 
 ⍟ *────────────────* ⍟`
- let mariajpg= "https://telegra.ph/file/5c831c160ad93ad5c1bc7.jpg" 
+ let mariajpg= "https://i.imgur.com/BcIbI2O.jpeg" 
  
 let tifxmsg = generateWAMessageFromContent(from, {
   viewOnceMessage: {
@@ -5300,11 +5300,11 @@ let tifxmsg = generateWAMessageFromContent(from, {
 
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 \",\"url\":\"https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 \",\"url\":\"https://chat.whatsapp.com/KRqmK7MU5OZ8pcKoeo4CVt\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗼𝘂𝘁𝘂𝗯𝗲 \",\"url\":\"https://youtube.com/@kenzo3146\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"𝗬𝗼𝘂𝘁𝘂𝗯𝗲 \",\"url\":\"https://youtube.com/@igwe\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -5315,7 +5315,7 @@ let tifxmsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -5368,7 +5368,7 @@ case '': {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '1203632993333611780@newsletter',
-                  newsletterName: "𝚃𝚘𝙶𝚎 𝙸𝚗𝚄𝚖𝙰𝚔𝙸",
+                  newsletterName: "papa igwe",
                   serverMessageId: 143
                 }
                 }
@@ -5388,7 +5388,7 @@ case '': {
 case 'newfeatures':
     case 'features': {
         const newFeatures = `
-        🆕 *New Features in TOGE-AI* 🆕
+        🆕 *New Features in IGWE-TECH* 🆕
 
         ✅ *Accept All:* Automatically accepts all group invites.
         ✅ *Reject All:* Automatically rejects all group invites.
@@ -5398,7 +5398,7 @@ case 'newfeatures':
         ✅ *Unpin Chat:* Unpins a chat from the top.
         ✅ *Auto React:* Automatically reacts to messages with an emoji.
 
-        *© 2024* 𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜
+        *© 2024* IGWE TECH 𝐈𝐧𝐜
         `;
         reply(newFeatures);
         }
