@@ -182,7 +182,7 @@ mentionedJid:[sender],
 forwardingScore: 9999999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterName: "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑.",
+newsletterName: "IGW𝐄-𝐌𝐃-2.",
 newsletterJid: "1203632993333611780@newsletter",
 },
 "externalAdReply": {
@@ -651,7 +651,7 @@ const sendSlide = async (jid, title, message, footer, slides) => {
     });
 };
 // Call the function with example parameters
-sendSlide(m.chat, 'TOGE-MD-V3', 'Here the TOGE-MD-V3 deploy tutorial', botname, slides);
+sendSlide(m.chat, 'IGWE-MD-2', 'Here the IGWE-MD-2 deploy tutorial', botname, slides);
 }
 break
 
@@ -1754,7 +1754,7 @@ case 'chatgpt':
         
         let txxt = `𝚑𝚎𝚕𝚕𝚘 ${pushname} 𝙸 𝚊𝚖 IGWE-MD-2 𝚊 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 PAPA IGWE 𝚑𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚋𝚊𝚋𝚢 ?`
 
-        Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/BcIbI2O.jpeg" }, caption: txxt}, { quoted: m });
+        Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/942c4dd39bd40933222d8.mp4" }, caption: txxt}, { quoted: m });
         
         break;
       case "support":
@@ -2603,7 +2603,7 @@ case 'public': {
    
 case 'generalmenu':
     const generalmenu = `┏━⍟ *GENERAL* ⍟
-┃✺ ${prefix}toge
+┃✺ ${prefix}igwe
 ┃✺ ${prefix}dev
 ┃✺ ${prefix}info
 ┃✺ ${prefix}newfeatures
