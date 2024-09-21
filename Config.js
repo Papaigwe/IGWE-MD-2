@@ -2,24 +2,24 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "24105114159"],
-global.ownername = process.env.OWNER_NAME || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
-global.ytname = "YT: kenzo3146"
-global.socialm = "GitHub: toge012345"
+global.ownernumber = [ process.env.OWNER_NUMBER || "24160338758"],
+global.ownername = process.env.OWNER_NAME || "♘🎯  丨gώｅ ｔ𝐄ČⒽ  ♪👣",
+global.ytname = "YT: igwe"
+global.socialm = "GitHub: papaigwe"
 global.location = "Africa"
 
-global.botname = process.env.BOTNAME || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",//name of the bot
+global.botname = process.env.BOTNAME || "ミ★ 𝘐𝘎𝘞𝘌-𝘔𝘋-2 ★彡",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",
+global.stickername = process.env.STICKER || "ミ★ 𝘐𝘎𝘞𝘌-𝘔𝘋-2 ★彡",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
+global.author = process.env.AUTHOR || "PAPA IGWE",
 //console view/theme
 global.themeemoji = '𓅃'
-global.wm = "𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨"
+global.wm = "ミ★ 𝘐𝘎𝘞𝘌-𝘔𝘋-2 ★彡 𝐈𝐧𝐜 ✨"
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z'
+global.link = 'https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
